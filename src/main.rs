@@ -14,6 +14,8 @@ struct MergeRequest {
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
+    // update these to get this working for you
+    // the .env file should include a line like: GITLAB_TOKEN=...
     let author_username = "oscarsaharoylccc";
     let dotenv_path = "/Users/oscarsaharoy/projects/mrs/.env";
 

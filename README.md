@@ -2,6 +2,8 @@
 
 This is a small command line tool that checks your open MRs on a given project in gitlab.
 
+Example usage:
+
 ```bash
 [oscarsaharoy@LCCC-MB-pTIY21 ~/projects/mrs] $ mrs
 You have 6 open MRs.
@@ -12,3 +14,6 @@ You have 6 open MRs.
 !2370 [not_approved   ] Feature/zro 3622 at function frontend
 !2245 [unchecked      ] ZRO-1: add extra logging and retries for pdf generation
 ```
+
+To get it up and running, update the 2 lines in `src/main.rs` with your gitlab username and path to .env file containing your gitlab token. Then I set it up and linked it into my path using `cargo build; ln target/debug/mrs ~/bin/mrs` and I can just run it like `mrs` :)
+
