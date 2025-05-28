@@ -1,6 +1,6 @@
 # mrs
 
-This is a small command line tool that checks your open MRs on a given project in gitlab.
+This is a small command line tool that checks your open MRs in gitlab.
 
 Example usage:
 

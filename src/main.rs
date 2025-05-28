@@ -40,7 +40,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     println!("You have {} open MRs.", response.len());
     for mr in response {
-        println!("!{} [{}] {}", mr.iid, format!("{:15}", mr.detailed_merge_status), mr.title);
+        println!("!{} [{}] {}", mr.iid, format!("{:20}", mr.detailed_merge_status), mr.title);
     }
 
     Ok(())
