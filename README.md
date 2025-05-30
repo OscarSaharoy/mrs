@@ -5,7 +5,7 @@ This is a small command line tool that checks your open MRs in gitlab.
 Example usage:
 
 ```bash
-[oscarsaharoy@LCCC-MB-pTIY21 ~/projects/mrs] $ mrs
+[oscarsaharoy ~] $ mrs
 You have 6 open MRs.
 !2424 [need_rebase    ] ZRO-3760: address unique together fix
 !2423 [not_approved   ] ZRO-3556: fix contract assignment search
